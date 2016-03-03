@@ -1,64 +1,78 @@
 
+body {
+  background: white url(../img/cream_pixels.png);
+  font-family: "le-monde-livre-std",sans-serif;
+font-style: normal;
+font-weight: 400;
+}
+
+.book {
+  /*
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.2);
+  */
+  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.3);
+}
+
 /** Add/remove margins **/
 
 .push {
-    margin: 11px;
+    margin: 22px;
 }
 
 .push-top {
-    margin-top: 11px;
+    margin-top: 22px;
 }
 
 .push-right {
-    margin-right: 11px;
+    margin-right: 22px;
 }
 
 .push-bottom {
-    margin-bottom: 11px;
+    margin-bottom: 22px;
 }
 
 .push-left {
-    margin-left: 11px;
+    margin-left: 22px;
 }
 
 .push-ends {
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.push-sides {
+    margin-right: 22px;
+    margin-left: 22px;
+}
+
+.push-half {
+    margin: 11px;
+}
+
+.push-half-top {
+    margin-top: 11px;
+}
+
+.push-half-right {
+    margin-right: 11px;
+}
+
+.push-half-bottom {
+    margin-bottom: 11px;
+}
+
+.push-half-left {
+    margin-left: 11px;
+}
+
+.push-half-ends {
     margin-top: 11px;
     margin-bottom: 11px;
 }
 
-.push-sides {
+.push-half-sides {
     margin-right: 11px;
     margin-left: 11px;
-}
-
-.push-half {
-    margin: $line-height-computed / 2;
-}
-
-.push-half-top {
-    margin-top: $line-height-computed / 2;
-}
-
-.push-half-right {
-    margin-right: $line-height-computed / 2;
-}
-
-.push-half-bottom {
-    margin-bottom: $line-height-computed / 2;
-}
-
-.push-half-left {
-    margin-left: $line-height-computed / 2;
-}
-
-.push-half-ends {
-    margin-top: $line-height-computed / 2;
-    margin-bottom: $line-height-computed / 2;
-}
-
-.push-half-sides {
-    margin-right: $line-height-computed / 2;
-    margin-left: $line-height-computed / 2;
 }
 
 .flush {
@@ -93,63 +107,63 @@
 /** Add/remove paddings **/
 
 .soft {
-    padding: 11px;
+    padding: 22px;
 }
 
 .soft-top {
-    padding-top: 11px;
+    padding-top: 22px;
 }
 
 .soft-right {
-    padding-right: 11px;
+    padding-right: 22px;
 }
 
 .soft-bottom {
-    padding-bottom: 11px;
+    padding-bottom: 22px;
 }
 
 .soft-left {
-    padding-left: 11px;
+    padding-left: 22px;
 }
 
 .soft-ends {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.soft-sides {
+    padding-right: 22px;
+    padding-left: 22px;
+}
+
+.soft-half {
+    padding: 11px;
+}
+
+.soft-half-top {
+    padding-top: 11px;
+}
+
+.soft-half-right {
+    padding-right: 11px;
+}
+
+.soft-half-bottom {
+    padding-bottom: 11px;
+}
+
+.soft-half-left {
+    padding-left: 11px;
+}
+
+.soft-half-ends {
     padding-top: 11px;
     padding-bottom: 11px;
 }
 
-.soft-sides {
+.soft-half-sides {
     padding-right: 11px;
     padding-left: 11px;
-}
-
-.soft-half {
-    padding: $line-height-computed / 2;
-}
-
-.soft-half-top {
-    padding-top: $line-height-computed / 2;
-}
-
-.soft-half-right {
-    padding-right: $line-height-computed / 2;
-}
-
-.soft-half-bottom {
-    padding-bottom: $line-height-computed / 2;
-}
-
-.soft-half-left {
-    padding-left: $line-height-computed / 2;
-}
-
-.soft-half-ends {
-    padding-top: $line-height-computed / 2;
-    padding-bottom: $line-height-computed / 2;
-}
-
-.soft-half-sides {
-    padding-right: $line-height-computed / 2;
-    padding-left: $line-height-computed / 2;
 }
 
 .hard {
