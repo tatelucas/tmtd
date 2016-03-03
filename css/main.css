@@ -1,9 +1,9 @@
 
 body {
   background: white url(../img/cream_pixels.png);
-  font-family: "le-monde-livre-std",sans-serif;
-font-style: normal;
-font-weight: 400;
+  font-family: "brandon-grotesque",sans-serif;
+  font-style: normal;
+  font-weight: 300;
 }
 
 .book {
