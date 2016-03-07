@@ -18,6 +18,10 @@ body {
   margin-top: -5%;
 }
 
+.container {
+  overflow: hidden;
+}
+
 .row {
   position: relative;
   overflow: hidden;
