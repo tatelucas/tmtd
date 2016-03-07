@@ -1,16 +1,59 @@
 
 body {
-  background: white url(../img/cream_pixels.png);
-  font-family: "brandon-grotesque",sans-serif;
+  background: #D3D3D3;
+  font-family: 'Karla', sans-serif;
   font-style: normal;
   font-weight: 300;
+  height: 100%;
+  font-size: 1.6rem;
+  color: #263350;
 }
 
 .book {
-  /*
-  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.2);
-  */
-  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.3);
+  max-width: 150%;
+  margin-left: -20%;
+  margin-top: -5%;
+}
+
+.row {
+  position: relative;
+}
+
+a {
+  color: #263350;
+  text-decoration: none;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  color: #263350;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+@media (min-width: 768px) {
+  .caption-box {
+    position: absolute;
+    bottom: 25%;
+    right: 0;
+  }
+
+  body {
+    font-size: 1.2rem;
+  }
+
+  .book {
+    max-width: 100%;
+    margin-left: auto;
+  }
 }
 
 /** Add/remove margins **/
