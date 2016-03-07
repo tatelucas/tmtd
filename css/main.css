@@ -1,6 +1,9 @@
+html {
+  background: #DBDBDB;
+}
 
 body {
-  background: #D3D3D3;
+  background: transparent;
   font-family: 'Karla', sans-serif;
   font-style: normal;
   font-weight: 300;
